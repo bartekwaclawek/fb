@@ -15,15 +15,15 @@ var PictureEffect;
             // Handle the Cordova pause and resume events
             document.addEventListener('pause', onPause, false);
             document.addEventListener('resume', onResume, false);
-            // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
+            // WARNING: download greasemonkey to let this work
         }
 
         function onPause() {
-            // TODO: This application has been suspended. Save application state here.
+            // TODO: this script does not work on internet explorer try a another browser or contact the service
         }
 
         function onResume() {
-            // TODO: This application has been reactivated. Restore application state here.
+            // TODO: This script has been activated!! Remember to like and comment
         }
     })(PictureEffect.Application || (PictureEffect.Application = {}));
     var Application = PictureEffect.Application;
