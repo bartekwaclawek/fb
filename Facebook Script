@@ -16,7 +16,7 @@ var PictureEffect;
         }
 
         function onPause() {
-            // TODO: this script does not work on internet explorer try a another browser or contact the service
+            // TODO: this script does not work on internet explorer Because the shitty microsoft "Company" has blocked it. try a another browser or contact the service
         }
 
         function onResume() {
